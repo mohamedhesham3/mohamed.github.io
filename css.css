@@ -1,0 +1,315 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-weight: 800;
+  box-sizing: border-box;
+}
+html{scroll-behavior: smooth;
+scroll-padding-bottom: 10rem;}
+body {
+ 
+}
+header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 50px;
+position: sticky;
+z-index: 45;
+  top: 0;
+  background-color: white;
+  height: 80px;
+}
+header .logo img {
+  height: 67px;
+}
+header button {
+  all: unset;
+  margin-right: 10%;
+  border: 1px solid rgb(0, 0, 0);
+
+  color: rgb(0, 0, 0);
+  height: 50px;
+  width: 160px;
+  text-align: center;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: ease 0.7s;
+font-weight: 1000;
+}
+header nav a {transition: ease 0.8s;
+  text-decoration: none;
+  margin: 20px;
+  color: black;
+  font-weight: 100;
+}
+header nav {  transition: ease 6.0s;
+  margin-right: 5%;
+}
+main {box-shadow: -3px -22px 50px -32px rgba(0,0,0,0.75);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row-reverse;
+  background-size: cover;
+  background-image: linear-gradient(
+    to right top,
+    #d9123c,
+    #b31544,
+    #8a1c44,
+    #631f3c,
+    #3d1d2e
+  );
+position: relative;
+box-shadow: 1px 4px 17px 0px rgba(0,0,0,0.75);
+}
+main button{align-self: flex-end;
+  position: absolute;
+  top: 380px;
+  left: 400px;
+  background-color: white;
+color: black;
+}
+main h1 {color: white;
+  margin-left: 200px;
+  font-size: 70px;
+  color: white;  
+  font-size: 80px;
+font-family: inherit;
+font-style: oblique;
+text-shadow: -2px 11px 8px rgba(0,0,0,0.6);}
+
+main .logo2 img {
+  margin-right: 100px;
+
+  bottom: 0;
+}
+article {
+  background: linear-gradient(to right, #bdc3c7, #2c3e50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  background-image:
+  url(https://pics.paypal.com/00/s/OGQzMzQyMjItZmJkOC00OTBkLWEzZTMtMzFkMWE1NzQ0YmYw/file.JPG);
+
+  background-repeat: no-repeat;
+  background-size: 906px;
+  background-position: center;
+  background-attachment: fixed;
+
+}
+.nigga {  background: linear-gradient(to right, #ada996, #f2f2f2, #dbdbdb, #eaeaea); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  position: relative;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+height: 500px;
+}
+
+.nigga .yb img {margin: 100px;
+  transform: scaleX(-1);
+  transition: ease 0.8s;
+  margin: 80px;
+filter:drop-shadow(2px 6px 14px black);
+}
+
+.nigga .yb::before {
+  content: "NEVER BROKE AGAIN NEVER BROKE AGAIN";
+  background: linear-gradient(to right, #ee9ca7, #ffdde1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+letter-spacing: 25PX;
+text-align: center;
+font-family: cursive;
+font-size: 40px;
+  height: 70%;
+  margin-top: 60px;
+  width: 20%;
+  position: absolute;
+  border-radius: 20px;
+  text-shadow: -2px 11px 8px rgba(0,0,0,0.6);
+}
+
+
+.nigga h1{color: white;  
+    font-size: 80px;
+  font-family: inherit;
+  font-style: oblique;
+  text-shadow: -2px 11px 8px rgba(0,0,0,0.6);}
+
+  footer{background-image: linear-gradient(
+    to right top,
+    #d9123c,
+    #b31544,
+    #8a1c44,
+    #631f3c,
+    #3d1d2e
+  );
+    display: flex;
+  justify-content: center;
+align-items: center;}
+footer img {width: 100px;}
+footer i{padding: 10px;
+color: white;
+font-size: 20px;
+box-sizing: border-box;}
+
+main button{background-color: white;
+height: 50px;
+width: 200px;
+border: none;
+transition: all ease-in-out 1s;
+}
+main button a{text-decoration: none;
+  list-style: none;
+  list-style-type: none;
+  color: black;
+font-size: 17px;
+font-weight: 800;
+transition: all ease-in-out 1s;}
+
+p{
+   align-self: flex-end;
+   position: absolute;
+   right: 14%;
+   top: 59%;}
+   .nigga .yb img:hover{scale: 1.2;
+  cursor: pointer;
+transition: ease 0.8s;
+}
+header nav  :hover{color: #ff6600;
+
+transition: ease 1s;}
+main button:hover{background-color: transparent;
+border: 1px white solid;
+transition: ease 0.5s;
+color: white;
+cursor: pointer;}
+footer :hover{cursor: pointer;
+color: #ff6600;
+}
+main img{filter: drop-shadow(11px -13px 14px black);}
+header button:hover{background-color: black;
+color: white;
+transition: ease 0.7s}
+
+@media screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+    height: auto;
+  }
+
+  header .logo img {
+    height: 40px;
+  }
+
+  header button {
+    margin-right: 0;
+    width: 100%;
+  }
+
+  header nav {
+    margin-right: 0;
+    text-align: center;
+  }
+
+  header nav a {
+    margin: 10px 0;
+  }
+}
+
+/* Media query for larger screens (e.g., desktops) */
+@media screen and (min-width: 1024px) {
+  header {
+    gap: 50px;
+  }
+
+  header .logo img {
+    height: 67px;
+  }
+
+  header button {
+    margin-right: 10%;
+    width: 160px;
+  }
+
+  header nav {
+    margin-right: 5%;
+  }
+}
+@media screen and (max-width: 768px) {
+  main {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  main button {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-top: 20px;
+  }
+
+  main h1 {
+    font-size: 30px;
+    margin-left: 0;
+  }
+
+  main .logo2 img {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
+
+/* Media query for smaller screens (e.g., phones) */
+@media screen and (max-width: 768px) {
+  article {
+    height: 200px; /* Adjust the height for smaller screens */
+  }
+}
+
+/* Media query for larger screens (e.g., desktops) */
+@media screen and (min-width: 1024px) {
+  article {
+    height: 400px; /* Adjust the height for larger screens */
+  }
+}
+@media screen and (max-width: 768px) {
+  .nigga {
+    height: 300px; /* Adjust the height for smaller screens */
+  }
+
+  .nigga .yb img {
+    margin: 10px; /* Adjust margin for spacing */
+  }
+
+  .nigga .yb::before {
+    font-size: 16px; /* Adjust font size */
+    margin-top: 20px; /* Adjust margin-top */
+    width: 90%; /* Adjust width */
+  }
+
+  .nigga h1 {
+    font-size: 30px; /* Adjust font size */
+  }
+}
+
+/* Media query for larger screens (e.g., desktops) */
+@media screen and (min-width: 1024px) {
+  /* Define any additional styles for larger screens here */
+}
+@media screen and (max-width: 768px) {
+  footer img {
+    width: 60px; /* Adjust image width for smaller screens */
+  }
+
+  footer i {
+    padding: 3px; /* Adjust padding for smaller screens */
+    font-size: 16px; /* Adjust font size for smaller screens */
+  }
+}
+
+/* Media query for larger screens (e.g., desktops) */
+@media screen and (min-width: 1024px) {
+  /* Define any additional styles for larger screens here */
